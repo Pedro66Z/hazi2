@@ -1,20 +1,7 @@
-der = int(input("adj meg egy számot"))
-import random
-
-szam = random.randint(1,5 )
-#print(f'A generált szám: {szam}')
-
-if szam > der:
-    print("nagyobb")
-    
-if szam < der:
-    print("kisebb")
-
-else:
-    print("egyenlő")
-    
-
-
-
-
-#print(der,"ez a te számod")
+eszek = True
+while eszek:
+    print("éhes vagy ?")
+    c = input("eszel még?  (y/n)")
+    if c == "n":
+        eszek = False
+print('Egészségedre')
