@@ -1,0 +1,4 @@
+sz = float(input("Írj be egy random számot"))
+
+
+print(sz+3*9*2,"ez a te szerencse számod")
