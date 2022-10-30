@@ -1,10 +1,10 @@
-ez = int(input("adj meg egy számot"))
-if ez > 0:
-    print("pozitív")
-if ez %2 == 0:
-    print("páros")
-    
-if ez < 0:
-    print("negatív")
-if ez %1 == 0:
-    print("páratlan")
+lista = []
+c = None
+while c != "":
+    c = input("Adj meg kis a betűvel kezdődő szavakat\t")
+    if c != "":
+         print("")
+    for x in c:
+        if "a" in x:
+            lista.append(c)
+print(lista)
