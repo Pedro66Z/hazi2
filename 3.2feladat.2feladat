@@ -1,0 +1,6 @@
+kereszt = input("add meg a kersztneved")
+vezetek = input("add meg a vezetékneved")
+
+
+teljes_nev = (vezetek+kereszt)
+print(teljes_nev, "üdvözlünk")
